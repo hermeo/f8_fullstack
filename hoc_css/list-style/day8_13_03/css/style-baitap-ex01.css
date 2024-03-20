@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(11, 8, 54);
+}
+nav {
+  width: 800px;
+
+  margin: 50px auto;
+}
+nav > ul {
+  /* display: inline-block; */
+  background-color: pink;
+  list-style: none;
+  font-size: 0;
+  border-radius: 5px;
+}
+nav > ul > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+nav ul li:hover {
+  background-color: aqua;
+  border-radius: 5px;
+}
+nav > ul > li ul:hover {
+  /* background-color: aqua; */
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  color: white;
+}
+
+nav > ul > li ul li {
+  background: violet;
+  background-color: yellow;
+  padding: 10px;
+}
+nav > ul ul {
+  position: absolute;
+  /* background: violet; */
+  top: 74px;
+  min-width: 200px;
+  display: none;
+  padding: 10px;
+  left: 590px;
+  margin: 10px;
+}
+nav > ul > li:hover ul {
+  display: block;
+}

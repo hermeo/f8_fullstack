@@ -1,0 +1,22 @@
+.tieude {
+  color: red;
+}
+h1.tieude {
+  color: yellow;
+}
+h2.tieude {
+  color: green;
+}
+.f8 {
+  color: red;
+}
+ul > li.f8#fullstack,
+li.f8#back-end {
+  color: violet;
+}
+h1 ~ p {
+  color: aqua;
+}
+div > p + h2 {
+  color: red;
+}

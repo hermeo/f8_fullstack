@@ -1,0 +1,9 @@
+@font-face {
+  font-family: font;
+  src: url(./font/OpenSans-Medium.ttf);
+  font-weight: 300;
+}
+body {
+  font-family: font, sans-serif;
+  /* font-weight: bold; */
+}

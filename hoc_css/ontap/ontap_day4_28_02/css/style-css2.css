@@ -1,0 +1,19 @@
+/* ul li a[href] {
+  color: red;
+}
+ul li a[href="https://baomoi.com/"]
+{
+  color: green;
+} */
+/* ul li a[href^="https://baomoi.com/"]
+{
+  color: yellow;
+} */
+
+/* ul li a[href*="baomoi.com"] {
+  color: green;
+} */
+
+ul li a[href$=".com/"] {
+  color: red;
+}

@@ -1,0 +1,8 @@
+p {
+  /* text-decoration: line-through;
+   */
+  /* text-transform: none; */
+  /* letter-spacing: unset;  */
+  /* word-spacing: 10px; */
+  word-break: keep-all;
+}

@@ -1,0 +1,28 @@
+/* 
+background-color
+background-image
+background-repeat
+background-position
+background-size
+background-attachment
+background
+*/
+/* body {
+  background-color: aqua;
+} */
+.box {
+  background-color: rgb(155, 118, 69);
+}
+body {
+  height: 1000px;
+  /* background-image: url("https://picsum.photos/id/237/536/354"); */
+  /* background-color: rgb(244, 13, 163); */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: no-repeat; */
+  /* background-position: 50% 50%; */
+  /* background-size: auto 100%;
+  background-attachment: fixed; */
+  background: rgb(184, 125, 17)
+    url("https://fastly.picsum.photos/id/537/536/354.jpg?hmac=9w4wLS6h9VtjcXkaIi-w9NDXNEYIpyh8tQc2H7w8Tdw")
+    no-repeat 0 0 / cover fixed;
+}

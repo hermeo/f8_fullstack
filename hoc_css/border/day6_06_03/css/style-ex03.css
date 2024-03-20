@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* border-radius: 10px 20px 30px 40px; */
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 40px; */
+  border-radius: 48%;
+}
+.btn {
+  border: 0;
+  background: green;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: aqua;
+}
+.btn-large {
+  height: 40px;
+  border-radius: 50%;
+}

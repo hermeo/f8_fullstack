@@ -1,0 +1,21 @@
+form div:nth-child(1) > label::after {
+  /* content: "a"; */
+  content: attr(data-index);
+}
+form div:nth-child(2) label::before {
+  /* content: "Yêu em "; */
+  content: attr(data-text);
+}
+form p::first-line {
+  color: red;
+}
+form p::first-letter {
+  font-size: 50px;
+  font-style: italic;
+  color: green;
+}
+form div input::placeholder {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}

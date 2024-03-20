@@ -1,0 +1,32 @@
+/*
+Width: Thiết lập chiều rộng
+height: thiết lập chiều cao
+- Nếu dùng đơn vị phần trăm --> tỷ lệ với kích thước của thành phần cha
+-width, height chỉ hoạt động với thẻ bloclk
+
+Đơn vị vw, vh
+- vw: tỷ lệ theo width của viewport
+- vh: tỷ lệ theo height của viewport
+
+Tìm hiểu thêm: tại sao thẻ img là inline lại set được width, height
+- max-width
+- min-width
+-max-height
+-min-height
+trong thẻ inline có 2 nhóm:
+- non-replace
+- replace
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  width: 300px;
+  height: 100vh;
+  background-color: green;
+}
+body {
+  height: 2000px;
+  width: 1000px;
+}

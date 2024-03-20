@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  width: 600px;
+  /* height: 300px; */
+  overflow: auto;
+  border: 1px solid red;
+  /* text-align: center; */
+  margin: 0 auto;
+  padding: 20px;
+}
+.box img {
+  width: 200px;
+  /* height: 100px; */
+  float: left;
+  border-radius: 50%;
+  /* margin-right: 80px; */
+  /* shape-outside: circle(); */
+  shape-outside: ellipse();
+}
+p {
+  line-height: 1.5;
+}
+.btn {
+  display: block;
+  float: right;
+}
